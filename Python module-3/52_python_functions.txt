@@ -1,0 +1,15 @@
+1) Built-in Functions: 
+These are functions that are included as part of the Python language and are available
+ for use without the need for importing any additional modules.
+ built-in functions include print(), len(), int(), str(), float()
+
+2) Standard Library Functions: 
+ Python comes with a vast standard library that contains a wide range of modules and functions 
+ for various tasks
+ math.sqrt() from the math module, random.randint() from the random module, and os.path.exists()
+  from the os module.4
+
+3)User-Defined Functions:
+These are functions created by Python programmers to encapsulate a specific 
+set of instructions or tasks
+ou can define your own functions using the def keyword.
