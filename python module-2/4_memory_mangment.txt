@@ -1,0 +1,7 @@
+Memory management in Python is primarily handled by the Python memory manager,
+ which is responsible for allocating and managing memory for objects in your Python programs. 
+
+ 1)private heap Space
+ 2) Reference Counting
+ 3) Garbage Collection
+ 4) Memory Optimizations:
