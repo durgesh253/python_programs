@@ -1,0 +1,15 @@
+
+17) When is the finally block executed?
+When No Exception is Raised: If no exception is raised within the try block,
+ the code in the finally block is executed after the try block completes its execution. 
+This allows you to perform cleanup or resource release operations, ensuring they always run,
+ whether or not an exception occurred.
+
+ try:
+    # Code that may or may not raise an exception
+
+except ExceptionType as e:
+   
+finally:
+    # Code that is always executed, regardless of exceptions
+    

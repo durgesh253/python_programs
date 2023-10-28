@@ -1,0 +1,15 @@
+
+15) When will the else part of try-except-else be executed?
+
+In a try-except-else block in Python, the else part is executed when no exceptions are 
+raised within the try block. It provides a way to specify code that should be executed 
+if the code in the try block runs without any exceptions. If an exception is raised within 
+the try block, the code in the else block is skipped, and the program continues with the except block, 
+which handles the exception.
+
+try:
+    x = 10 / 2  # No exception here
+except ZeroDivisionError as e:
+    print(f"Caught an exception: {e}")
+else:
+    print("No exception was raised.")
